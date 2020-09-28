@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ReportManager"
   spec.version      = "0.0.1"
-  spec.summary      = "nb report class"
+  spec.summary      = "new blue report class"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-nb report class sdk.
+new blue report class sdk.
                    DESC
 
-  spec.homepage     = "https://github.com/chenxiandong/ReportManager"
+  spec.homepage     = "https://github.com/cztvcom/NewBlueReport_IOS"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ nb report class sdk.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/chenxiandong/ReportManager.git", :tag => spec.version}
+  spec.source       = { :git => "https://github.com/cztvcom/NewBlueReport_IOS.git", :tag => spec.version}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +91,10 @@ nb report class sdk.
   #  Not including the public_header_files will make all headers public.
   #
 
-  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #spec.source_files  = "ReportManager.framework/Headers/*.{h}"
   #spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "ReportManager.framework/Headers/*.{h}"
   spec.vendored_frameworks = 'ReportManager.framework'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
